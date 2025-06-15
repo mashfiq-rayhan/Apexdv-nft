@@ -1,0 +1,107 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: black;
+    /* background: black; */
+  }
+}
+
+/* faq */
+
+.faqAccordion {}
+
+.faqAccordion .accordion-body {
+  border: 2px solid #f8f8f8;
+  border-top: none;
+}
+
+.faqAccordion .accordion-button:focus,
+.faqAccordion .accordion-button:not(.collapsed) {
+  border: none;
+  box-shadow: none;
+}
+
+.faqAccordion .accordion-item {
+  margin-bottom: 10px;
+  border: none;
+}
+
+.faqAccordion button.accordion-button.collapsed,
+.faqAccordion .accordion-button:not(.collapsed) {
+  background: #f8f8f8;
+  height: 75px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 110% */
+  color: #3a3939;
+}
+
+
+
+.modal-dialog {
+  max-width: 830px !important;
+  margin: 0 auto !important;
+  margin-top: 50px !important;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Low resolution Tablets and iPads */
+@media (min-width: 640px) and (max-width: 800px) {
+  .modal-dialog {
+    max-width: 650px !important;
+    margin: 0 auto !important;
+    margin-top: 50px !important;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .modal-dialog {
+    max-width: 320px !important;
+    margin: 0 auto !important;
+    margin-top: 50px !important;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 320px) {
+  .modal-dialog {
+    max-width: 280px !important;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+  }
+}

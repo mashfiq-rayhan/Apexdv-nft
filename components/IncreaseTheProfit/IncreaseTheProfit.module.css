@@ -1,0 +1,84 @@
+.increaseTheProfit {
+  margin: 60px 0px;
+}
+
+.increaseTheProfit h1 {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 25px;
+}
+
+.increaseTheProfitInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.increaseTheProfitCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 34px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+
+.increaseTheProfitCard img {
+  margin-bottom: 20px;
+}
+
+.increaseTheProfitCard h4 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #3a3939;
+}
+
+.increaseTheProfitCard p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #6a7071;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .increaseTheProfitInfo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+  }
+  .increaseTheProfit h1 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .increaseTheProfitCard h4 {
+    font-size: 19px;
+  }
+
+  .increaseTheProfitCard p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .increaseTheProfitInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  }
+  .increaseTheProfit h1 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,130 @@
+.NFTArtCompany {
+  padding: 30px 0px;
+  background-color: #ffffff;
+}
+
+.NFTArtCompany h2 {
+  font-size: 46px;
+  font-family: "Livvic";
+  font-weight: 700;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 40px;
+}
+
+.NFTArtCompanyImage img {
+  width: 536px !important;
+  height: 462px !important;
+}
+
+.NFTArtCompanyCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.NFTArtCompanyCard2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.NFTArtCompanyCard2 img {
+  margin-bottom: 10px;
+}
+
+.NFTArtCompanyCardItam img {
+  margin-bottom: 10px;
+}
+
+.NFTArtCompanyCardItam h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Livvic";
+  line-height: 22px;
+  color: #3a3939;
+  text-align: left;
+}
+
+.NFTArtCompanyCardItam p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Livvic";
+  line-height: 24px;
+  color: #6a7071;
+  text-align: left;
+}
+
+/* Low resolution Tablets and iPads */
+@media (min-width: 640px) and (max-width: 1050px) {
+  .NFTArtCompanyImage {
+    width: 100%;
+    text-align: center;
+  }
+
+  .NFTArtCompanyCard {
+    width: 100%;
+    text-align: center;
+  }
+
+  .NFTArtCompanyCard2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    width: 100%;
+  }
+
+  .NFTArtCompanyCardItam h3 {
+    text-align: center;
+  }
+
+  .NFTArtCompanyCardItam p {
+    text-align: center;
+  }
+
+  .NFTArtCompanyCard {
+    margin-top: 40px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .NFTArtCompanyImage {
+    width: 100%;
+    text-align: center;
+  }
+
+  .NFTArtCompanyCard {
+    width: 100%;
+    text-align: center;
+  }
+
+  .NFTArtCompanyCard2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    width: 100%;
+  }
+
+  .NFTArtCompanyCardItam h3 {
+    text-align: center;
+  }
+
+  .NFTArtCompanyCardItam p {
+    text-align: center;
+  }
+
+  .NFTArtCompanyCard {
+    margin-top: 40px;
+  }
+
+  .NFTArtCompanyImage img {
+    width: 310px !important;
+    height: 260px !important;
+  }
+  .NFTArtCompany h2 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,96 @@
+.createHighNft {
+  margin: 40px 0px;
+  background: #0c1016;
+  border-radius: 26px;
+  padding: 50px;
+}
+
+.createHighNftImg img {
+  width: 100%;
+}
+
+.createHighNftInfo h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  color: #ffffff;
+}
+.createHighNftInfo p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.touchButton {
+  background: #1caf83;
+  border-radius: 30px;
+  padding: 12px 62px;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #1caf83;
+  transition: 0.4s linear;
+  font-family: "Livvic";
+}
+
+.touchButton:hover {
+  background-color: transparent;
+  color: #1caf83;
+  border: 1px solid #1caf83;
+}
+
+@media only screen and (max-width: 576px) {
+  .createHighNftInfo h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+    line-height: 33px;
+  }
+  .createHighNftInfo p {
+    text-align: center;
+  }
+  .touchButtonDiv {
+    text-align: center;
+  }
+  .createHighNftImg {
+    margin-top: 40px;
+  }
+  .createHighNft {
+    flex-direction: column-reverse;
+    padding: 10px 24px 10px 24px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .createHighNftInfo h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .createHighNftInfo p {
+    text-align: center;
+  }
+  .touchButtonDiv {
+    text-align: center;
+  }
+  .createHighNftImg {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .createHighNftImg img {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .createHighNftImg {
+    text-align: center;
+  }
+  .createHighNftImg img {
+    width: 501px;
+  }
+}

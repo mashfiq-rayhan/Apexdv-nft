@@ -1,0 +1,102 @@
+.nftMarketPlace {
+  background: url("/images/NftMarketPlace/pense-pattern.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0px;
+  z-index: 1;
+  position: relative;
+}
+
+.nftMarketPlace::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.69);
+  z-index: -1;
+}
+
+.nftMarketPlaceContainer h1 {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 40px;
+}
+
+.nftMarketInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.nftMarketCard {
+  background-color: white;
+  padding: 22px 20px 22px 20px;
+  box-shadow: 0 0 17px 0 #efefef;
+  text-align: center;
+}
+
+.nftMarketCard img {
+  width: 100%;
+}
+
+.nftMarketCard h4 {
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #3a3939;
+  margin-top: 20px;
+}
+
+.nftMarketCard p {
+  font-family: "Livvic";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #6a7071;
+  margin-bottom: 15px;
+}
+
+.demoButton {
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #1caf83;
+  background-color: white;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 576px) {
+  .nftMarketInfo {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+
+  .nftMarketPlaceContainer h1 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .nftMarketInfo {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+
+  .nftMarketPlaceContainer h1 {
+    font-size: 40px;
+    line-height: 51px;
+  }
+}

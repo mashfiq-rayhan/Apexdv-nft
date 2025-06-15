@@ -1,0 +1,117 @@
+.marketplaceDev {
+  background-color: #f8f8f8;
+  padding: 50px 0px;
+}
+
+.marketplaceDev h2 {
+  font-size: 46px;
+  font-family: "Livvic";
+  font-weight: 700;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 40px;
+}
+
+.marketplaceDevButton {
+  text-align: center;
+}
+
+.marketplaceDevButtonText {
+  background-color: #1caf83;
+  border-radius: 30px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  padding: 10px 60px;
+  margin-top: 30px;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid #1caf83;
+  transition: 0.4s linear;
+}
+
+.marketplaceDevButtonText:hover {
+  background-color: transparent;
+  color: #1caf83;
+  border: 1px solid #1caf83;
+}
+
+.marketplaceDevButtonText a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Livvic";
+  text-align: center;
+  color: #ffffff;
+}
+
+.marketplaceDevPart {
+  background-color: #ffffff;
+  padding: 20px 20px 35px;
+  margin: 0 auto;
+  margin-right: 20px;
+  width: 47%;
+  text-align: center;
+}
+
+.marketplaceDevPart h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Livvic";
+  line-height: 22px;
+  color: #3a3939;
+  margin-top: 20px;
+}
+
+.marketplaceDevPart p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Livvic";
+  line-height: 24px;
+  color: #6a7071;
+  width: 340px;
+  margin: 0 auto;
+}
+
+/* Low resolution Tablets and iPads */
+@media (min-width: 640px) and (max-width: 1030px) {
+  .marketplaceDevPart p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Livvic";
+    line-height: 24px;
+    color: #6a7071;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .marketplaceDev {
+    padding: 30px 20px;
+  }
+
+  .marketplaceDev h2 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .marketplaceDevPart {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+
+  .marketplaceDevPart p {
+    width: auto;
+  }
+
+  .marketplaceDevButtonText {
+    margin-top: 10px;
+  }
+
+  .marketPlaceCard .marketPlaceCard img {
+    width: 300px !important;
+  }
+}

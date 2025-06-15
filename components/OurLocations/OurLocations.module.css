@@ -1,0 +1,82 @@
+.OurLocations {
+    padding: 40px 0px;
+
+}
+
+.OurLocations h2 {
+    font-size: 46px;
+    font-family: "Livvic";
+    font-weight: 700;
+    text-align: center;
+    color: #3A3939;
+    margin-bottom: 40px;
+    line-height: 50px;
+}
+
+.OurLocationCard {
+    background-color: #F5F5F5;
+    padding: 20px 20px;
+    position: relative;
+    height: 260px;
+    width: 350px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.LocationCardLogo {
+    position: absolute;
+    left: 0px;
+    top: -9px;
+}
+
+.LocationCardImage {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+
+.OurLocationCard h3 {
+    font-size: 23px;
+    font-family: "Livvic";
+    font-weight: 600;
+    text-align: left;
+    color: #333333;
+    line-height: 25px;
+    margin-top: 50px;
+}
+
+.OurLocationCard h4 {
+    font-size: 18px;
+    font-family: "Livvic";
+    font-weight: 600;
+    text-align: left;
+    color: #333333;
+    line-height: 20px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+
+.OurLocationCard p {
+    font-size: 16px;
+    font-family: "Livvic";
+    font-weight: 400;
+    text-align: left;
+    color: #6A7071;
+    line-height: 8px;
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+    .OurLocationCard {
+        width: 300px !important;
+    }
+
+    .OurLocationCard p {
+        padding-right: 65px;
+    }
+}

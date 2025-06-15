@@ -1,0 +1,19 @@
+.contact_header {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #3a3939;
+}
+.contact_row {
+  height: 163px;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact_header {
+    font-size: 30px;
+    line-height: 33px;
+  }
+}

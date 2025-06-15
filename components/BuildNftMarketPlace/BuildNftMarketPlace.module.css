@@ -1,0 +1,105 @@
+.buildNftMarketPlace {
+  background: #f8f8f8;
+  padding: 40px 0px 45px 0px;
+  text-align: center;
+}
+
+.buildNftMarketPlace > div > h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 40px;
+}
+
+.buildNftMarketPlaceCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 23px;
+  padding: 0px 170px;
+  margin-bottom: 40px;
+}
+.buildNftMarketPlaceCard {
+  background-color: white;
+  padding: 30px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+.startedButton {
+  background: #1caf83;
+  border-radius: 30px;
+  padding: 12px 62px;
+  color: white;
+  font-weight: 600;
+  font-family: "Livvic";
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #1caf83;
+  transition: 0.4s linear;
+}
+
+.startedButton:hover {
+  background-color: transparent;
+  color: #1caf83;
+  border: 1px solid #1caf83;
+}
+
+@media only screen and (max-width: 576px) {
+  .buildNftMarketPlaceCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 23px;
+    padding: 0px 0px;
+    margin-bottom: 40px;
+  }
+  .buildNftMarketPlace > div > h1 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .buildNftMarketPlaceCard {
+    padding: 10px 15px;
+  }
+  .buildNftMarketPlaceCard img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .buildNftMarketPlaceCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 23px;
+    padding: 0px 0px;
+    margin-bottom: 40px;
+  }
+  .buildNftMarketPlace > div > h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .buildNftMarketPlaceCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 23px;
+    padding: 0px 100px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .buildNftMarketPlaceCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 23px;
+    padding: 0px 50px;
+    margin-bottom: 40px;
+  }
+}

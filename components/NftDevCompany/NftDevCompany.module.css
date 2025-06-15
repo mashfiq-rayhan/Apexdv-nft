@@ -1,0 +1,66 @@
+.nftDevContainer {
+  background: url("/images/ft-minting-cta.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin: 40px 0px;
+}
+.nftDevContainer h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.talkButton {
+  background: #1caf83;
+  border-radius: 30px;
+  padding: 12px 62px;
+  color: white;
+  font-weight: 600;
+  font-family: "Livvic";
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #1caf83;
+  transition: 0.4s linear;
+}
+
+.talkButton:hover {
+  background-color: transparent;
+  color: #1caf83;
+  border: 1px solid #1caf83;
+}
+
+@media only screen and (max-width: 576px) {
+  .nftDevContainer {
+    flex-direction: column;
+    padding: 18px;
+  }
+  .nftDevContainer h1 {
+    margin-bottom: 13px;
+    font-size: 19px;
+    text-align: center;
+  }
+  .talkButton {
+    font-size: 16px;
+    padding: 12px 56px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .nftDevContainer {
+    flex-direction: column;
+    padding: 25px;
+  }
+  .nftDevContainer h1 {
+    margin-bottom: 13px;
+  }
+}

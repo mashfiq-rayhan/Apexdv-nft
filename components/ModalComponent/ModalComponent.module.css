@@ -1,0 +1,253 @@
+.modalMain {
+    background-color: #ffffff;
+    width: 830px;
+    padding: 0px;
+    height: 545px;
+    padding-right: 20px;
+}
+
+
+
+
+.modalImage {
+    background-image: url(../../public/images/modal/image\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 545px;
+    position: relative;
+}
+
+
+.modalImage h4 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Livvic";
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.modalImage h4 span {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Livvic";
+    line-height: 44px;
+    color: #1CAF83;
+}
+
+
+.modalFrom {
+    position: relative;
+    padding-left: 20px;
+}
+
+
+.modalClouse button {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+    background-color: #1CAF83 !important;
+    color: #FFFFFF;
+    position: absolute;
+    top: -20px;
+    right: -28px;
+    border: none;
+    transition: all linear .2s;
+}
+
+.modalFrom h4 {
+    font-size: 15px;
+    font-family: "Livvic";
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #222429;
+}
+
+.modalFrom h3 {
+    font-family: "Livvic";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #222429;
+    margin-top: 30px;
+}
+
+.fromInput input {
+    border-radius: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: "Livvic";
+    line-height: 27px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+
+.fromInput input:focus {
+    box-shadow: none;
+}
+
+.fromInput textarea {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 0px;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: 0;
+    height: 90px;
+}
+
+
+.modalButton button {
+    width: 100%;
+    margin-top: 20px;
+    border: 0px;
+    outline: 0px;
+    background-color: #1CAF83;
+    padding: 10px 10px;
+    font-family: "Livvic";
+    line-height: 27px;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    transition: all linear .2s;
+    color: #FFFFFF !important;
+}
+
+.modalButton>button:hover {
+    background-color: #FFFFFF !important;
+    color: #1CAF83 !important;
+    border: 1px solid #1CAF83;
+}
+
+.modalClouse button:hover {
+    background-color: #FFFFFF !important;
+    color: #1CAF83 !important;
+}
+
+
+
+
+/* Low resolution Tablets and iPads */
+@media (min-width: 640px) and (max-width: 800px) {
+    .modalMain {
+        width: 650px !important;
+    }
+
+    .modalImage {
+        background-position: inherit !important;
+    }
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .modalMain {
+        max-width: 320px !important;
+        background-color: #ffffff !important;
+        height: 520px !important;
+        padding: 20px 20px;
+    }
+
+
+    .modalClouse button {
+        width: 45px !important;
+        height: 45px !important;
+        border-radius: 50%;
+        background-color: #1CAF83 !important;
+        color: #FFFFFF;
+        position: absolute;
+        top: -40px;
+        right: -30px;
+        border: none;
+        transition: all linear .2s;
+    }
+
+
+
+    .modalImage {
+        display: none !important;
+    }
+
+    .modalFrom h3 {
+        margin-top: 0px !important;
+    }
+
+    .fromInput input {
+        margin-bottom: 0px !important;
+    }
+
+    .fromInput textarea {
+        margin-top: 0px !important;
+    }
+
+    .modalFrom>button {
+        margin-top: 0px !important;
+    }
+
+    .modalFrom>button {
+        margin-top: 15px !important;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 320px) {
+    .modalMain {
+        max-width: 270px !important;
+        height: 530px !important;
+    }
+
+    .modalClouse button {
+        width: 45px !important;
+        height: 45px !important;
+        border-radius: 50%;
+        background-color: #1CAF83 !important;
+        color: #FFFFFF;
+        position: absolute;
+        top: -40px;
+        right: -30px;
+        border: none;
+        transition: all linear .2s;
+    }
+
+
+
+    .modalImage {
+        display: none !important;
+    }
+
+    .modalFrom h3 {
+        margin-top: 0px !important;
+    }
+
+    .fromInput input {
+        margin-bottom: 0px !important;
+    }
+
+    .fromInput textarea {
+        margin-top: 0px !important;
+    }
+
+    .modalFrom>button {
+        margin-top: 15px !important;
+    }
+
+}

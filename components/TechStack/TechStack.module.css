@@ -1,0 +1,115 @@
+.techStack {
+  text-align: center;
+}
+
+.techStack h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 40px;
+}
+
+.techStackInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-bottom: 40px;
+}
+
+.techStackCard {
+  text-align: center;
+  padding: 38px;
+  border-radius: 10px;
+}
+
+.techStackCard:nth-child(1) {
+  background: #ddedea;
+}
+
+.techStackCard:nth-child(1) > .techStackCardImgs > .techStackCardImg {
+  margin-bottom: 50px;
+}
+
+.techStackCard:nth-child(2) {
+  background: #e8dff5;
+}
+
+.techStackCard:nth-child(3) {
+  background: #fcf4dd;
+}
+
+.techStackCard:nth-child(4) {
+  background: #fce1e4;
+}
+
+.techStackCard h4 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 20px;
+}
+
+.techStackCardImgs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.techStackCardImg {
+  margin-bottom: 20px;
+}
+
+.startedButton {
+  background: #1caf83;
+  border-radius: 30px;
+  padding: 12px 62px;
+  color: white;
+  font-weight: 600;
+  font-family: "Livvic";
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #1caf83;
+  transition: 0.4s linear;
+}
+
+.startedButton:hover {
+  background-color: transparent;
+  color: #1caf83;
+  border: 1px solid #1caf83;
+}
+
+@media only screen and (max-width: 576px) {
+  .techStackInfo {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .techStackCard {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .techStack h1 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .techStackCardImg img {
+    width: 70%;
+  }
+
+  .techStackCard:nth-child(2) > .techStackCardImgs > .techStackCardImg img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .techStackInfo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,24 @@
+.faq {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  /* identical to box height, or 115% */
+  text-align: center;
+  text-transform: capitalize;
+  color: #1caf83;
+}
+
+.title {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  /* identical to box height, or 110% */
+  text-align: center;
+  color: #3a3939;
+}
+
+

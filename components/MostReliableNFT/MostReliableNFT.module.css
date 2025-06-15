@@ -1,0 +1,114 @@
+.MostReliableNFT {
+    padding: 40px 0px;
+    background-color: #FFFFFF;
+}
+
+.MostReliableNftPart .MostNftTextCard h2 {
+    font-size: 46px;
+    font-family: "Livvic";
+    line-height: 50px;
+    font-weight: 600;
+    text-align: left;
+    color: #3a3939;
+    margin-bottom: 10px;
+}
+
+.MostNftTextCard .MostNftCardItam .MostNftCardItamInfo .NftCardItam {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.MostNftCardItamInfo h3 {
+    font-size: 20px;
+    font-family: "Livvic";
+    line-height: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #3A3939;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.MostNftTextCard .MostNftCardItam .MostNftCardItamInfo .NftCardItam i {
+    color: #33B78F;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.NftCardItam p {
+    line-height: 20px !important;
+}
+
+.MostNftTextCard p {
+    font-size: 17px;
+    font-family: "Livvic";
+    line-height: 26px;
+    font-weight: 400;
+    text-align: left;
+    color: #6A7071;
+    width: 450px;
+
+}
+
+/* Low resolution Tablets and iPads */
+@media (min-width: 640px) and (max-width: 1030px) {
+    .MostNftImage {
+        width: 100%;
+        text-align: center;
+    }
+
+    .MostNftTextCard {
+        width: 100%;
+    }
+
+    .MostReliableNftPart .MostNftTextCard h2 {
+        font-size: 40px;
+        font-family: "Livvic";
+        line-height: 44px;
+        font-weight: 700;
+        text-align: center;
+        color: #3a3939;
+        margin-bottom: 10px;
+    }
+
+    .MostNftTextCard p {
+        text-align: center;
+        width: auto;
+    }
+
+    .NftCardItam p {
+        text-align: left !important;
+    }
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .MostNftImage {
+        width: 100%;
+        text-align: center;
+    }
+
+    .MostNftTextCard {
+        width: 100%;
+    }
+
+    .MostReliableNftPart .MostNftTextCard h2 {
+        font-size: 30px;
+        font-family: "Livvic";
+        line-height: 33px;
+        font-weight: 600;
+        text-align: center;
+        color: #3a3939;
+        margin-bottom: 10px;
+    }
+
+    .MostNftTextCard p {
+        text-align: center;
+        width: auto;
+    }
+
+    .NftCardItam p {
+        text-align: left !important;
+    }
+}

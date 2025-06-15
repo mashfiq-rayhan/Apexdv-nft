@@ -1,0 +1,79 @@
+.buildNft {
+  background: url("/images/pense-clone-highlight.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0px;
+}
+
+.buildNftContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.buildNftHeader {
+}
+
+.buildNftHeader h1 {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  color: white;
+}
+
+.buildNftHeader p {
+  padding-top: 10px;
+  font-family: "Livvic";
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.buildNftList {
+  display: flex;
+  margin-left: 30px;
+}
+
+.buildNftList p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 23px;
+  color: white;
+}
+.buildNftList i {
+  padding-right: 20px;
+  color: #1caf83;
+  font-weight: 900 !important;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 576px) {
+  .buildNftHeader h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .buildNftHeader p {
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .buildNftHeader h1 {
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+  }
+  .buildNftHeader p {
+    text-align: center;
+  }
+}

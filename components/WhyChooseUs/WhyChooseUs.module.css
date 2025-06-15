@@ -1,0 +1,90 @@
+.whyChooseUs {
+  margin: 60px 0px;
+}
+
+.whyChooseUs h1 {
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 51px;
+  text-align: center;
+  color: #3a3939;
+  margin-bottom: 25px;
+}
+
+.whyChooseUsInfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+.whyChooseUsCard {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; */
+  padding: 20px 34px;
+  background: #ffffff;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.jawDroppingFeaturesCardImg {
+  background-color: white;
+  padding: 15px;
+  border-radius: 150px;
+  margin-top: -85px;
+}
+
+.whyChooseUsCard img {
+  width: 70px;
+}
+
+.whyChooseUsCard h4 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #3a3939;
+  margin-top: 10px;
+}
+
+.whyChooseUsCard p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6a7071;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .whyChooseUsInfo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 25px;
+  }
+  .whyChooseUs h1 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .whyChooseUsCard h4 {
+    font-size: 19px;
+  }
+
+  .whyChooseUsCard p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .whyChooseUsInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  }
+  .whyChooseUs h1 {
+    font-size: 40px;
+  }
+}
